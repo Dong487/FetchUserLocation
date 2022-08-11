@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55F5B9A28A4CAA60050746F /* FetchUserLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F5B9928A4CAA60050746F /* FetchUserLocationApp.swift */; };
+		F55F5B9C28A4CAA60050746F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F5B9B28A4CAA60050746F /* ContentView.swift */; };
+		F55F5B9E28A4CAA90050746F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55F5B9D28A4CAA90050746F /* Assets.xcassets */; };
+		F55F5BA128A4CAA90050746F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55F5BA028A4CAA90050746F /* Preview Assets.xcassets */; };
+		F55F5BAB28A4CAA90050746F /* FetchUserLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F5BAA28A4CAA90050746F /* FetchUserLocationTests.swift */; };
+		F55F5BB528A4CAA90050746F /* FetchUserLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F5BB428A4CAA90050746F /* FetchUserLocationUITests.swift */; };
+		F55F5BB728A4CAA90050746F /* FetchUserLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55F5BB628A4CAA90050746F /* FetchUserLocationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55F5BA728A4CAA90050746F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55F5B8E28A4CAA60050746F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55F5B9528A4CAA60050746F;
+			remoteInfo = FetchUserLocation;
+		};
+		F55F5BB128A4CAA90050746F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55F5B8E28A4CAA60050746F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55F5B9528A4CAA60050746F;
+			remoteInfo = FetchUserLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F55F5B9628A4CAA60050746F /* FetchUserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchUserLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55F5B9928A4CAA60050746F /* FetchUserLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserLocationApp.swift; sourceTree = "<group>"; };
+		F55F5B9B28A4CAA60050746F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F55F5B9D28A4CAA90050746F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55F5BA028A4CAA90050746F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F55F5BA628A4CAA90050746F /* FetchUserLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchUserLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55F5BAA28A4CAA90050746F /* FetchUserLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserLocationTests.swift; sourceTree = "<group>"; };
+		F55F5BB028A4CAA90050746F /* FetchUserLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchUserLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55F5BB428A4CAA90050746F /* FetchUserLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserLocationUITests.swift; sourceTree = "<group>"; };
+		F55F5BB628A4CAA90050746F /* FetchUserLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55F5B9328A4CAA60050746F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F5BA328A4CAA90050746F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F5BAD28A4CAA90050746F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55F5B8D28A4CAA60050746F = {
+			isa = PBXGroup;
+			children = (
+				F55F5B9828A4CAA60050746F /* FetchUserLocation */,
+				F55F5BA928A4CAA90050746F /* FetchUserLocationTests */,
+				F55F5BB328A4CAA90050746F /* FetchUserLocationUITests */,
+				F55F5B9728A4CAA60050746F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55F5B9728A4CAA60050746F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55F5B9628A4CAA60050746F /* FetchUserLocation.app */,
+				F55F5BA628A4CAA90050746F /* FetchUserLocationTests.xctest */,
+				F55F5BB028A4CAA90050746F /* FetchUserLocationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55F5B9828A4CAA60050746F /* FetchUserLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F55F5B9928A4CAA60050746F /* FetchUserLocationApp.swift */,
+				F55F5B9B28A4CAA60050746F /* ContentView.swift */,
+				F55F5B9D28A4CAA90050746F /* Assets.xcassets */,
+				F55F5B9F28A4CAA90050746F /* Preview Content */,
+			);
+			path = FetchUserLocation;
+			sourceTree = "<group>";
+		};
+		F55F5B9F28A4CAA90050746F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F55F5BA028A4CAA90050746F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F55F5BA928A4CAA90050746F /* FetchUserLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55F5BAA28A4CAA90050746F /* FetchUserLocationTests.swift */,
+			);
+			path = FetchUserLocationTests;
+			sourceTree = "<group>";
+		};
+		F55F5BB328A4CAA90050746F /* FetchUserLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F55F5BB428A4CAA90050746F /* FetchUserLocationUITests.swift */,
+				F55F5BB628A4CAA90050746F /* FetchUserLocationUITestsLaunchTests.swift */,
+			);
+			path = FetchUserLocationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55F5B9528A4CAA60050746F /* FetchUserLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55F5BBA28A4CAA90050746F /* Build configuration list for PBXNativeTarget "FetchUserLocation" */;
+			buildPhases = (
+				F55F5B9228A4CAA60050746F /* Sources */,
+				F55F5B9328A4CAA60050746F /* Frameworks */,
+				F55F5B9428A4CAA60050746F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FetchUserLocation;
+			productName = FetchUserLocation;
+			productReference = F55F5B9628A4CAA60050746F /* FetchUserLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55F5BA528A4CAA90050746F /* FetchUserLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55F5BBD28A4CAA90050746F /* Build configuration list for PBXNativeTarget "FetchUserLocationTests" */;
+			buildPhases = (
+				F55F5BA228A4CAA90050746F /* Sources */,
+				F55F5BA328A4CAA90050746F /* Frameworks */,
+				F55F5BA428A4CAA90050746F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55F5BA828A4CAA90050746F /* PBXTargetDependency */,
+			);
+			name = FetchUserLocationTests;
+			productName = FetchUserLocationTests;
+			productReference = F55F5BA628A4CAA90050746F /* FetchUserLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F55F5BAF28A4CAA90050746F /* FetchUserLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55F5BC028A4CAA90050746F /* Build configuration list for PBXNativeTarget "FetchUserLocationUITests" */;
+			buildPhases = (
+				F55F5BAC28A4CAA90050746F /* Sources */,
+				F55F5BAD28A4CAA90050746F /* Frameworks */,
+				F55F5BAE28A4CAA90050746F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55F5BB228A4CAA90050746F /* PBXTargetDependency */,
+			);
+			name = FetchUserLocationUITests;
+			productName = FetchUserLocationUITests;
+			productReference = F55F5BB028A4CAA90050746F /* FetchUserLocationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55F5B8E28A4CAA60050746F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F55F5B9528A4CAA60050746F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F55F5BA528A4CAA90050746F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F55F5B9528A4CAA60050746F;
+					};
+					F55F5BAF28A4CAA90050746F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F55F5B9528A4CAA60050746F;
+					};
+				};
+			};
+			buildConfigurationList = F55F5B9128A4CAA60050746F /* Build configuration list for PBXProject "FetchUserLocation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55F5B8D28A4CAA60050746F;
+			productRefGroup = F55F5B9728A4CAA60050746F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55F5B9528A4CAA60050746F /* FetchUserLocation */,
+				F55F5BA528A4CAA90050746F /* FetchUserLocationTests */,
+				F55F5BAF28A4CAA90050746F /* FetchUserLocationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55F5B9428A4CAA60050746F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F5BA128A4CAA90050746F /* Preview Assets.xcassets in Resources */,
+				F55F5B9E28A4CAA90050746F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F5BA428A4CAA90050746F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F5BAE28A4CAA90050746F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55F5B9228A4CAA60050746F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F5B9C28A4CAA60050746F /* ContentView.swift in Sources */,
+				F55F5B9A28A4CAA60050746F /* FetchUserLocationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F5BA228A4CAA90050746F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F5BAB28A4CAA90050746F /* FetchUserLocationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F5BAC28A4CAA90050746F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F5BB528A4CAA90050746F /* FetchUserLocationUITests.swift in Sources */,
+				F55F5BB728A4CAA90050746F /* FetchUserLocationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55F5BA828A4CAA90050746F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55F5B9528A4CAA60050746F /* FetchUserLocation */;
+			targetProxy = F55F5BA728A4CAA90050746F /* PBXContainerItemProxy */;
+		};
+		F55F5BB228A4CAA90050746F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55F5B9528A4CAA60050746F /* FetchUserLocation */;
+			targetProxy = F55F5BB128A4CAA90050746F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F55F5BB828A4CAA90050746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F55F5BB928A4CAA90050746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55F5BBB28A4CAA90050746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchUserLocation/Preview Content\"";
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.FetchUserLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55F5BBC28A4CAA90050746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchUserLocation/Preview Content\"";
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.FetchUserLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F55F5BBE28A4CAA90050746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.FetchUserLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchUserLocation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchUserLocation";
+			};
+			name = Debug;
+		};
+		F55F5BBF28A4CAA90050746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.FetchUserLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchUserLocation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchUserLocation";
+			};
+			name = Release;
+		};
+		F55F5BC128A4CAA90050746F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.FetchUserLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchUserLocation;
+			};
+			name = Debug;
+		};
+		F55F5BC228A4CAA90050746F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.FetchUserLocationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchUserLocation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55F5B9128A4CAA60050746F /* Build configuration list for PBXProject "FetchUserLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55F5BB828A4CAA90050746F /* Debug */,
+				F55F5BB928A4CAA90050746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55F5BBA28A4CAA90050746F /* Build configuration list for PBXNativeTarget "FetchUserLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55F5BBB28A4CAA90050746F /* Debug */,
+				F55F5BBC28A4CAA90050746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55F5BBD28A4CAA90050746F /* Build configuration list for PBXNativeTarget "FetchUserLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55F5BBE28A4CAA90050746F /* Debug */,
+				F55F5BBF28A4CAA90050746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55F5BC028A4CAA90050746F /* Build configuration list for PBXNativeTarget "FetchUserLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55F5BC128A4CAA90050746F /* Debug */,
+				F55F5BC228A4CAA90050746F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55F5B8E28A4CAA60050746F /* Project object */;
+}
